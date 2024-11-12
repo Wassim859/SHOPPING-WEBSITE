@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amoza - Online Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Amoza</div>
+    <input type="text" id="search-bar" placeholder="Search for products...">
+    <button id="search-btn">Search</button>
+    <div class="nav-links">
+      <a href="#">Sign In</a>
+      <a href="#">Cart</a>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Welcome to Amoza</h1>
+    <p>Your one-stop shop for everything!</p>
+  </section>
+
+  <!-- Products -->
+  <section class="product-grid">
+    <!-- Product 1 with T-Shirt Image -->
+    <div class="product">
+      <img src="asset/shopping (1).webp" alt="Black Shirt">
+      <h3>Black T-Shirt</h3>
+      <p>Price: ₹499</p>
+      <button onclick="addToCart('Black T-Shirt')">Add to Cart</button>
+    </div>
+    
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="asset/shopping.webp" alt="T-Shirt">
+      <h3>T-shirt</h3>
+      <p>Price: ₹799</p>
+      <button onclick="addToCart('T-Shirt')">Add to Cart</button>
+    </div>
+    
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="asset/download.webp" alt="Jeans">
+      <h3>Jeans</h3>
+      <p>Price: ₹999</p>
+      <button onclick="addToCart('Jeans')">Add to Cart</button>
+    </div>
+    <!-- Add more products as needed -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Amoza. All rights reserved to Wassim Akram.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
